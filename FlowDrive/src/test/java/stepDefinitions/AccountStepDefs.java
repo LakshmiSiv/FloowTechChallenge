@@ -17,7 +17,7 @@ public class AccountStepDefs {
 
     @When("^I click Signup$")
     public void i_click_Signup()  {
-        implmns.i_click_Signup();
+
     }
 
     @When("^I provide data$")
@@ -30,13 +30,13 @@ public class AccountStepDefs {
 
     @Then("^gets redirected to login page$")
     public void gets_redirected_to_login_page()  {
-        implmns.gets_redirected_to_login_page();
-    }
+
+            }
 
     @Given("^I'm in login screen$")
     public void i_m_in_login_screen() {
-        implmns.i_m_in_login_screen();
-    }
+
+            }
 
     @When("^I enter valid username$")
     public void i_enter_valid_username() throws Exception  {
